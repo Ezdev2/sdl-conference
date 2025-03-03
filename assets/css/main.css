@@ -1,6 +1,43 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
+#apply {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1); /* Légère transparence */
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    backdrop-filter: blur(10px); /* Effet flou */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilité Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#apply h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+#apply p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-apply {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #b89d06;
+    color: white;
+    font-size: 16px;
+	font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-apply:hover {
+    background-color: #ffd900bd;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
